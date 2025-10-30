@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #fafbfc;
+    color: #222;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 40px;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.nav a{
+    margin: 0 12px;
+    text-decoration: none;
+    color: #444;
+}
+
+.signup-btn{
+    background: #7f56d9;
+    color: #fff;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 4px;
+}
+
+.about{background: #f5f6fa; text-align: center; padding: 40px 0;}
+.about-content{display: flex; justify-content: center; gap: 30px; margin-top: 20px;}
+.about-img{width: 240px; border-radius: 10px;}
+.stats-row{display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;}
+.stats-row div{background: #fff; padding: 14px 20px; border-radius: 8px; box-shadow: 0 1px 3px #ddd;}
+
+.values{background: #fff; text-align: center; padding: 40px 0;}
+.values-list{display: grid; grid-template-columns: repeat(3,1fr);gap: 20px; max-width: 900px;margin: 0 auto;}
+.values-list div{background: #fafbfc; padding: 18px; border-radius: 10px; box-shadow: 0 1px 3px #eee;}
+
+.team{background: #f7f7fb; text-align: center; padding: 40px 0;}
+.team-cards{display: flex; justify-content: center; gap: 25px; flex-wrap: wrap;}
+.team-card{background: #fff; padding: 16px; border-radius: 8px; width: 200px; box-shadow: 0 1px 3px #ddd;}
+.team-card img{width: 70px;height: 70px; border-radius: 50%; margin-bottom: 8px;}
+.open-btn{background: #7f56d9; color: #fff; border: none; padding: 8px 20px; border-radius: 4px; margin-top: 20px;}
+
+.jobs{background: #fff; text-align: center; padding: 40px 0;}
+.job{background: #f4f4fa; margin: 10px auto; width: 300px;padding: 12px;border-radius: 6px;}
+
+.footer{background: #fff; border-top: 1px solid #eee; padding: 20px; text-align: center;}
+.footer-links a{margin: 0 10px; text-decoration: none; color: #7f56d9;}

@@ -1,0 +1,118 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #fafafd;
+    margin: 0;
+}
+.container{
+    max-width: 420px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0 0 14px #e0e0ea;
+    padding: 10px;
+}
+.main-header{
+    text-align: center; padding: 16px 0;
+}
+.logo{
+    width: 44px;
+    border-radius: 50%;
+}
+
+.main-nav a{
+    margin: 0 6px;
+    color: #5a52cf;
+    text-decoration: none;
+}
+
+.hero{
+    text-align: center;
+    margin-top: 12px;
+    
+}
+.hero-img{
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 6px;
+}
+
+.companies span{
+    background: #ecf0ff;
+    padding: 4px 8px;
+    margin: 3px;
+    border-radius: 6px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.team-section{
+    margin-top:14px;
+    text-align: center;
+}
+
+.team-section h2{
+    color: #5a52cf;
+}
+
+.team-card{
+    background: #f1f1fd;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 8px auto;width: 80%;
+
+}
+.team-card img{
+    width: 45px;
+    border-radius: 50%;
+}
+
+.values-section{
+    margin-top:18px;
+    text-align: center;
+}
+
+.values-section h2{
+    color:#5a52cf;
+}
+
+.values-list li{
+    background: #f7f7fe;
+    margin: 5px 0;
+    padding :7px 10px;
+    border-radius: 6px;
+    color:#7367f0;
+}
+
+.jobs-section{
+    margin-top: 16px;
+    text-align: center;
+}
+
+.jobs-section h2{
+    color: #5a52cf;
+}
+.job-card{
+    background: #ecf7ff;
+    margin:6px auto;
+    width: 80%; 
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.main-footer{
+    text-align: center;
+    background: #ecf0ff;
+    padding: 12px;
+    margin-top: 18px;
+}
+.footer-links a{
+    margin: 0 4px;
+    color : #5a52cf;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+@media(max-width:480px){
+    .container{
+        padding: 4px;
+    }
+}
